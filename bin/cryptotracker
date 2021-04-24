@@ -1,3 +1,4 @@
 #!/usr/bin/env ruby
+require './lib/cryptotracker' 
 
-puts "Welcome to Cryptotracker!"
+Cryptotracker::CLI.new.call 
